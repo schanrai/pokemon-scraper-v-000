@@ -39,7 +39,7 @@ describe "Pokemon" do
       expect(pikachu_from_db.type).to eq("electric")
     end
   end
-end
+
 
 =begin
   describe "BONUS" do
@@ -73,5 +73,5 @@ end
       expect(Pokemon.find(2, @db).hp).to eq(0)
     end
   end
-end
 =end
+end
